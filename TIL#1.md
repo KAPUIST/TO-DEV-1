@@ -166,3 +166,4 @@ return false
 even = num %2 ==0
 
 ```
+새로배운 Math.floor 넘버값의 가장큰 정수만 가져온다.

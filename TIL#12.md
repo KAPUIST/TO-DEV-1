@@ -38,7 +38,7 @@ console.log(typeof obj);
 // `object`
 ```
 
-JSON.parse를 적용하는 이 과정을 역직렬화(deserialize)한다고 합니다.
+JSON.parse를 적용하는 이 과정을 역직렬화(deserialize)한다고 합니다.`
 
 #### JSON의기본규칙
 

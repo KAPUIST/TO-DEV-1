@@ -1,37 +1,44 @@
 # TO DEV TIL
 
 ### HTML
+
 ### STRUCTURE (구조)
 
 Hyper Text Markup Language 의 약자 HTML
 웹페이지의 틀을 만드는 마크업 언어.
-html 은  tag(<> 부등호)로 묶인 html 의 기본 요소.
+html 은 tag(<> 부등호)로 묶인 html 의 기본 요소.
 html 이라는 확장자를 사용
 
 ### tree structure
+
 ```html
 <!DOCTYPE html>           이 문서가 HTML문서임을 명시
-<html>       html 시작 태그로, 문서 전체의 틀을 구성 
+<html>       html 시작 태그로, 문서 전체의 틀을 구성
  <head>          head 태그는 문서의 메타데이터를 선언
   <title>page title<!title>  문서의 제목, 브라우저의 탭에 보여짐
  </head>           </태그이름>은 해당 태그가 끝났음을 의미
  <body>           body 태그는 문서의 내용을 담는 곳
   <h1>hello world</h1>            heading을 의미하며, 크기에 따라 h1~h6까지있음
-  <div> condtents here         content division을 의미하며, 줄바꿈됨 
+  <div> condtents here         content division을 의미하며, 줄바꿈됨
     <span> here too!</span> 줄바꿈이 없는 content컨테이너
-    </div>  div 태그가 끝났음을 의미 
+    </div>  div 태그가 끝났음을 의미
   </body>  body태그가 끝났을을 의미
 </html>   html 태그가 끝났음을 의미
 ```
+
 ### self - closing tag
+
 태그 내부에 내용이 없다면 (<tag> </tag>와 같이 표현되는경우) <tag/>와 같이 표현가능
+
 ```html
 <img src="ddd.png"></img>
 src 의 값에 ddd라는 사진  정보가 있음.
 
 <img src="ddd.png" />
 ```
+
 ### html 에서 가장 많이 사용되는 태그
+
 <div> division
 <span> span
 <img> image 

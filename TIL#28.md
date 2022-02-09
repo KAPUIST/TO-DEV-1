@@ -72,5 +72,5 @@ import data in BSON dump
 ```js
 mongoimport --uri"<Atlas Cluster URI>"
             --drop=<filename>.json
-            import data in JSON
+import data in JSON
 ```
